@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Emergency
+  title: EmergencyAlerts
   description: This application monitors the users' location in order to send them warnings about possible emergencies in their area.
   version: '1.0'
   termsOfService: 'https://emergencies.spilab.es/terms'
