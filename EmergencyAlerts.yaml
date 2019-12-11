@@ -29,7 +29,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/EmergencyResponse'
+                $ref: '#/components/schemas/AlertResponse'
         '404':
           $ref: '#/components/responses/404NotFound'
   /location:
@@ -90,7 +90,7 @@ components:
         radius:
           type: number
           format: double
-    EmergencyResponse:
+    AlertResponse:
       properties:
         deviceId:
           type: number
