@@ -1,0 +1,20 @@
+{
+	"to": "<<<Server Token ID>>>",
+	"data":{
+		"resource": "Emergency",
+		"method": "postEmergency",
+		"params" : {
+				"emergency": {
+					"id" : 1,
+					"title" : "Earthquake",
+					"description" : "Earthquake in Malaga",
+					"latitude" : -6.56, 
+					"longitude" : 39.53,
+					"radius" : 100
+					
+				}
+						
+			}
+			
+		}
+}
